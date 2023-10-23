@@ -1,0 +1,465 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('ANH/ninok.jpg');
+    background-size: cover; /* Để làm cho ảnh nền vừa với trang */
+    background-repeat: no-repeat; /* Ngăn lặp lại ảnh nền */
+    background-attachment: fixed; /* Tạo hiệu ứng ảnh nền cố định */
+    height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+}
+#hiddenDiv {
+    width: 300px;
+    height: 100px;
+    background-color: ;
+    display: none;
+    position: absolute; /* Thiết lập vị trí tuyệt đối */
+    top: 50px; /* Điều chỉnh vị trí theo chiều dọc (px) */
+    left: 30px; /* Điều chỉnh vị trí theo chiều ngang (px) */
+    border-radius: 10px;
+    border: 5px solid pink;
+}
+#hiddenDiv1 {
+    width: 300px;
+    height: 100px;
+    background: ;
+    display: none;
+    position: absolute;
+    top: 140px; /* Điều chỉnh vị trí theo chiều dọc (px) */
+    left: 430px; /* Điều chỉnh vị trí theo chiều ngang (px) */
+    border-radius: 10px;
+    border: 5px solid #00FFFF;
+}
+#hiddenDiv2 {
+    width: 300px;
+    height: 100px;
+    background: ;
+    display: none;
+    position: absolute;
+    top: 70px; /* Điều chỉnh vị trí theo chiều dọc (px) */
+    left: 575px; /* Điều chỉnh vị trí theo chiều ngang (px) */
+    border-radius: 10px;
+    border: 5px solid #FF3366;
+}
+#hiddenDiv3 {
+    width: 300px;
+    height: 100px;
+    background: ;
+    display: none;
+    position: absolute;
+    top: 300px; /* Điều chỉnh vị trí theo chiều dọc (px) */
+    left:690px; /* Điều chỉnh vị trí theo chiều ngang (px) */
+    border-radius: 10px;
+    border: 5px solid #33CC33;
+}
+#hiddenDiv4 {
+    width: 300px;
+    height: 100px;
+    background: ;
+    display: none;
+    position: absolute;
+    top: 53px; /* Điều chỉnh vị trí theo chiều dọc (px) */
+    left: 879px; /* Điều chỉnh vị trí theo chiều ngang (px) */
+    border-radius: 10px;
+    border: 5px solid #FF6600;
+}
+#showButton {
+    position: absolute;
+    margin-top: 123px;
+    margin-left: 360px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: pink;
+}
+#nut2 {
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 688px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background:#00FFFF;
+}
+#nut3 {
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 890px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #FF3366;
+}
+#nut4 {
+    position: absolute;
+    margin-top: 510px;
+    margin-left: 1010px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #33CC33;
+}
+#nut5 {
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 1209px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #FF6600;
+}
+.a1 {
+    position: absolute;
+    margin-top: -20px;
+    margin-left: -20px;
+    width: 50px;
+    height: 50px;
+}
+.b1 {
+    position: absolute;
+    margin-top: -20px;
+    margin-left: -20px;
+    width: 50px;
+    height: 50px;
+}
+.c1 {
+    position: absolute;
+    margin-top: -20px;
+    margin-left: -20px;
+    width: 50px;
+    height: 50px;
+}
+.d1 {
+    position: absolute;
+    margin-top: -20px;
+    margin-left: -20px;
+    width: 50px;
+    height: 50px;
+}
+.e1 {
+    position: absolute;
+    margin-top: -20px;
+    margin-left: -20px;
+    width: 50px;
+    height: 50px;
+}
+.a2 {
+    position: absolute;
+    margin-top: 2px;
+    margin-left: 30px;
+    width: 150px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.b2 {
+    position: absolute;
+    margin-top: 2px;
+    margin-left: 30px;
+    width: 150px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c2 {
+    position: absolute;
+    margin-top: 2px;
+    margin-left: 30px;
+    width: 150px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.d2 {
+    position: absolute;
+    margin-top: 2px;
+    margin-left: 40px;
+    width: 150px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.e2 {
+    position: absolute;
+    margin-top: 2px;
+    margin-left: 30px;
+    width: 150px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a3 {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 290px;
+    width: 30px;
+    height: 100px;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.b3 {
+    position: absolute;
+    margin-top: 0;
+    margin-left: 290px;
+    width: 30px;
+    height: 100px;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c3 {
+    position: absolute;
+    margin-top: 0;
+    margin-left: 290px;
+    width: 30px;
+    height: 100px;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.d3 {
+    position: absolute;
+    margin-top: 0;
+    margin-left: 290px;
+    width: 30px;
+    height: 100px;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.e3 {
+    position: absolute;
+    margin-top: 0;
+    margin-left: 290px;
+    width: 30px;
+    height: 100px;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.color {
+    position: absolute;
+    width: 20px;
+    height: 80%;
+    margin-top: 30%;
+    background: pink;
+    border-radius: 5px;
+}
+.a4 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-top: 50px;
+    margin-left: -23px;
+    background: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aa4 {
+    position: absolute;
+    width:20px;
+    height:20px;
+    margin-top:-35px;
+    margin-left:35px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.b4 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-top: 50px;
+    margin-left: -23px;
+    background: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bb4 {
+    position: absolute;
+    width:20px;
+    height:20px;
+    margin-top:-35px;
+    margin-left:35px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c4 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-top: 50px;
+    margin-left: -23px;
+    background: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cc4 {
+    position: absolute;
+    width:20px;
+    height:20px;
+    margin-top:-35px;
+    margin-left:35px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.d4 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-top: 50px;
+    margin-left: -23px;
+    background: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dd4 {
+    position: absolute;
+    width:20px;
+    height:20px;
+    margin-top:-35px;
+    margin-left:35px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.e4 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-top: 50px;
+    margin-left: -23px;
+    background: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ee4 {
+    position: absolute;
+    width:20px;
+    height:20px;
+    margin-top:-35px;
+    margin-left:35px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a5 {
+    position: absolute;
+    width: 250px;
+    height: 30px;
+    margin-top: 60px;
+    margin-left: 30px;
+    background: white;
+    border-radius: 7px;
+    z-index: 1;
+}
+.b5 {
+    position: absolute;
+    width: 250px;
+    height: 30px;
+    margin-top: 60px;
+    margin-left: 30px;
+    background: white;
+    border-radius: 7px;
+    z-index: 1;
+}
+.c5 {
+    position: absolute;
+    width: 250px;
+    height: 30px;
+    margin-top: 60px;
+    margin-left: 30px;
+    background: white;
+    border-radius: 7px;
+    z-index: 1;
+}
+.d5 {
+    position: absolute;
+    width: 250px;
+    height: 30px;
+    margin-top: 60px;
+    margin-left: 30px;
+    background: white;
+    border-radius: 7px;
+    z-index: 1;
+}
+.e5 {
+    position: absolute;
+    width: 250px;
+    height: 30px;
+    margin-top: 60px;
+    margin-left: 30px;
+    background: white;
+    border-radius: 7px;
+    z-index: 1;
+}
+.color1 {
+    position: absolute;
+    width: 20px;
+    height: 80%;
+    margin-top: 30%;
+    background: #00FFFF;
+    border-radius: 5px;
+}
+.color2 {
+    position: absolute;
+    width: 20px;
+    height: 80%;
+    margin-top: 30%;
+    background: #FF3366;
+    border-radius: 5px;
+}
+.color3 {
+    position: absolute;
+    width: 20px;
+    height: 80%;
+    margin-top: 30%;
+    background: #33CC33;
+    border-radius: 5px;
+}
+.color4 {
+    position: absolute;
+    width: 20px;
+    height: 80%;
+    margin-top: 30%;
+    background: #FF6600;
+    border-radius: 5px;
+}
